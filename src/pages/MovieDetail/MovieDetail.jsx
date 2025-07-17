@@ -18,7 +18,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import tmdbApi from '../../services/tmdbApi';
-import VideoModal from '../../components/VideoModal/VideoModal';
+import VideoModal from '../../components/VideoModal';
 import ContentGrid from '../../components/ContentGrid';
 import './MovieDetail.css';
 
