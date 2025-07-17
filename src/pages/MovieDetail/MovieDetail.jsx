@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 import tmdbApi from '../../services/tmdbApi';
 import VideoModal from '../../components/VideoModal/VideoModal';
-import ContentGrid from '../../components/ContentGrid/ContentGrid';
+import ContentGrid from '../../components/ContentGrid';
 import './MovieDetail.css';
 
 const MovieDetail = () => {

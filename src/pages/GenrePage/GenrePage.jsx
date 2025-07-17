@@ -3,7 +3,7 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Film, Tv, Filter } from 'lucide-react';
 import tmdbApi from '../../services/tmdbApi';
-import ContentGrid from '../../components/ContentGrid/ContentGrid';
+import ContentGrid from '../../components/ContentGrid';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 import './GenrePage.css';
 

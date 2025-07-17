@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Award, Star, Calendar } from 'lucide-react';
 import tmdbApi from '../../services/tmdbApi';
-import ContentGrid from '../../components/ContentGrid/ContentGrid';
+import ContentGrid from '../../components/ContentGrid';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 import './TopRated.css';
 

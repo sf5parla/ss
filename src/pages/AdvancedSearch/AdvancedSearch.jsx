@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Filter, X, Calendar, Star } from 'lucide-react';
 import tmdbApi from '../../services/tmdbApi';
-import ContentGrid from '../../components/ContentGrid/ContentGrid';
+import ContentGrid from '../../components/ContentGrid';
 import VideoPlayer from '../../components/VideoPlayer/VideoPlayer';
 import './AdvancedSearch.css';
 
